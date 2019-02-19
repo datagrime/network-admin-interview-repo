@@ -1,4 +1,4 @@
-network troubleshooting 
+Network Troubleshooting 
 
 
 Ping External IP and Domain 
@@ -28,6 +28,8 @@ search testroot.local
 options timeout:2 attempts:5
 nameserver 10.0.0.186
 nameserver 10.0.0.150
+
+Run Dig for each nameserver 
 
 ; <<>> DiG 9.9.4-RedHat-9.9.4-61.amzn2.1.1 <<>> @10.0.0.186 google.com
 ; (1 server found)
