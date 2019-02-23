@@ -2,7 +2,7 @@ Network Torubleshooting
 
 1. Ping outside domains and IP's looked good
 2. Looked up resolve.conf for DNS servers 
-3. Ran dig @ each server. Received no response from 10.0.0.186 but recursion is not allowed. Most likely used as DNS caching server
+3. Ran dig @ each DNS server. Received no response from 10.0.0.186 but recursion is not allowed. Most likely used as DNS caching server
 DNS resolved for 10.0.0.150. Would maybe investigate server 10.0.0.186 to see if it is configured correctly. 
 4. Traceroute -I ran to ubuntu.com some missed hops but resolving. 
 5. ran mtr on ubuntu.com, google.com etc... Showing no serious packet loss.
