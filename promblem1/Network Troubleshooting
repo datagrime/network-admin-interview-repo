@@ -13,7 +13,8 @@ DNS resolved for 10.0.0.150. Would maybe investigate server 10.0.0.186 to see if
 
 6. Checked /etc/services.conf to make sure no applicable ports were disabled. 
 
-Overall the client seems to be working to the best of my knowledge. Usually, intermittent network issues are DNS or bandwidth related. To troubelshoot further I would check the DNS servers for any issues and the firewall appliance for any insight on bandwidth usage.   
+Overall the client seems to be working to the best of my knowledge. Usually, intermittent network issues are DNS or bandwidth related. 
+To troubelshoot further I would check the DNS servers for any issues and the firewall appliance for any insight on bandwidth usage.   
 
 
 
