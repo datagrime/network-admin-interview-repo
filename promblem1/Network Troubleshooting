@@ -4,7 +4,7 @@ Network Torubleshooting Steps
 
 2. Ping outside domains and IP's. Everything looked good. 
 
-3. Looked up nameservers in /etc/resolv.conf. Two name servers listed. 
+3. Looked up nameservers in /etc/resolv.conf. Two nameservers listed. 
 
 4. Ran dig @ each nameserver. Received no response from 10.0.0.186 but recursion is not allowed. Most likely used as 
 DNS caching server. DNS resolved for 10.0.0.150. Would maybe investigate server 10.0.0.186 to see if it is configured correctly.
