@@ -1,6 +1,6 @@
 Network Torubleshooting Steps 
 
-1. Ping outside domains and IP's.Everything looked good. 
+1. Ping outside domains and IP's. Everything looked good. 
 
 2. Looked up nameservers in /etc/resolv.conf. Two name servers listed. 
 
