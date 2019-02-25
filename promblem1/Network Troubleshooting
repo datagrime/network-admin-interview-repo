@@ -1,23 +1,23 @@
 Network Torubleshooting Steps
 
-1. run Ifconfig to look at network interface info. 
+1. run Ifconfig to look up network interface info. 
 
-1. Ping outside domains and IP's. Everything looked good. 
+2. Ping outside domains and IP's. Everything looked good. 
 
-2. Looked up nameservers in /etc/resolv.conf. Two name servers listed. 
+3. Looked up nameservers in /etc/resolv.conf. Two name servers listed. 
 
-3. Ran dig @ each nameserver. Received no response from 10.0.0.186 but recursion is not allowed. Most likely used as DNS caching server. 
+4. Ran dig @ each nameserver. Received no response from 10.0.0.186 but recursion is not allowed. Most likely used as DNS caching server. 
 DNS resolved for 10.0.0.150. Would maybe investigate server 10.0.0.186 to see if it is configured correctly.
 
-4. Traceroute -I to various domains showing some missed hops but resolving. 
+5. Traceroute -I to various domains showing some missed hops but resolving. 
 
-5. Test packet loss by running mtr to various domains. No serious packet loss was reported.
+6. Test packet loss by running mtr to various domains. No serious packet loss was reported.
 
-6. Checked /etc/services.conf to make sure no applicable ports were disabled. 
+7. Checked /etc/services.conf to make sure no applicable ports were disabled. 
 
 Overall the client seems to be working to the best of my knowledge. To troubleshoot further I would check the clients DHCP
-service for any issues and the firewall appliance for any insight on bandwidth usage. In my experience, intermittent network 
-issues are sometimes caused by bandwidth issues or disruption of service from ISP. 
+service for any issues and the firewall appliance for any insight on bandwidth usage. In my experience, 
+intermittent conecticity issues are sometimes caused by bandwidth getting maxed out or disruption of service from ISP. 
 
 
 
