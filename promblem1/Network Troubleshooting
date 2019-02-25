@@ -4,7 +4,8 @@ Network Torubleshooting Steps
 
 2. Looked up nameservers in /etc/resolv.conf. Two name servers listed. 
 
-3. Ran dig @ each nameserver. Received no response from 10.0.0.186 but recursion is not allowed. Most likely used as DNS                                                   caching server. DNS resolved for 10.0.0.150. Would maybe investigate server 10.0.0.186 to see if it is configured correctly.
+3. Ran dig @ each nameserver. Received no response from 10.0.0.186 but recursion is not allowed. Most likely used as DNS caching server. 
+DNS resolved for 10.0.0.150. Would maybe investigate server 10.0.0.186 to see if it is configured correctly.
 
 4. Traceroute -I to various domains showing some missed hops but resolving. 
 
