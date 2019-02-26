@@ -1,6 +1,6 @@
 Network Torubleshooting Steps
 
-1. run Ifconfig to look up network interface info. 
+1. Run Ifconfig to look up network interface info. 
 
 2. Ping outside domains and IP's. Everything looked good. 
 
