@@ -17,7 +17,7 @@ DNS caching server. DNS resolved for 10.0.0.150. Would maybe investigate server 
 
 Overall the client seems to be working to the best of my knowledge. To troubleshoot further I would check the clients DHCP
 service for any issues and the firewall appliance for any insight on bandwidth usage. In my experience, 
-intermittent conecticity issues are sometimes caused by bandwidth getting maxed out or disruption of service from ISP. 
+intermittent conectivity issues are sometimes caused by bandwidth getting maxed out or disruption of service from ISP. 
 
 
 
